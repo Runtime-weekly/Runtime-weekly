@@ -9,6 +9,23 @@ to follow along—including the cases that did not work.
 [Browse tutorials](https://github.com/Runtime-weekly/runtime-tutorials) ·
 [Read roundups & notes](https://github.com/Runtime-weekly/Blogs---Posts)
 
+## Watch a test and try it yourself
+
+Choose a question, watch the experiment, then inspect the companion. Each test
+records its own setup and limits; results from different tasks are not a shared
+model leaderboard.
+
+| Question | Watch | Follow along |
+| --- | --- | --- |
+| How do I run Laya locally? | [Installation and three demos](https://youtu.be/J-Cn9UUJtdA) | [Setup and examples](https://github.com/Runtime-weekly/runtime-tutorials/tree/main/laya) |
+| Can Ornith recover when a coding tool fails? | [Ornith versus Qwen](https://youtu.be/Mb7Hpwv_Xqo) | [Saved tests and reproduction guide](https://github.com/Runtime-weekly/runtime-tutorials/tree/main/ornith15) |
+| What can a small local model handle? | [MiniCPM5 1B and 2B](https://youtu.be/K0UJ4B9xYEo) | [Configurations and recorded outputs](https://github.com/Runtime-weekly/runtime-tutorials/tree/main/minicpm5) |
+| What are we teaching a language model to do? | [The first theory lesson](https://youtu.be/hSht0qBgSaE) | [Python examples and course roadmap](https://github.com/Runtime-weekly/build-a-language-model) |
+
+For more comparisons, [browse the channel's videos](https://www.youtube.com/@runtime-weekly/videos).
+For explanations you can build on, start with the
+[language-model course](https://github.com/Runtime-weekly/build-a-language-model).
+
 ## Find your starting point
 
 | You want to… | Start here |
@@ -36,3 +53,6 @@ of the same accuracy or speed on every machine.
 
 Have a correction or a question? Use the relevant repository's Issues page.
 Please share a small synthetic example rather than private documents or logs.
+Include the model version, hardware, prompt, expected behavior and actual output
+when reporting a different result. Small reproducible cases help us improve the
+tests and decide what to investigate next.
